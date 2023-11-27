@@ -24,10 +24,10 @@ const Login = () => {
             </Button>
           </Form>
           <div className="ForgotPassword">
-            <a onClick={() => navigator("/recuperar")}>¿Olvidaste tu contraseña?</a>
+            <a className="Link" onClick={() => navigator("/recuperar")}>¿Olvidaste tu contraseña?</a>
           </div>
           <div className="SignupLink">
-            ¿No tienes una cuenta? <a onClick={() => navigator("/registro")}>Regístrate</a>
+            ¿No tienes una cuenta? <a className="Link" onClick={() => navigator("/registro")}>Regístrate</a>
           </div>
         </Col>
       </Row>
