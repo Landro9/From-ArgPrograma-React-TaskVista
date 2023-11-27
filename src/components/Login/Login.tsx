@@ -1,7 +1,11 @@
 import { Container, Row, Col, Form, Button } from 'react-bootstrap';
+import { useNavigate } from "react-router-dom";
 import './login.css';
 
 const Login = () => {
+
+  const navigator = useNavigate()
+
   return (
     <Container className="LoginContainer">
       <Row className="justify-content-md-center">
@@ -20,10 +24,10 @@ const Login = () => {
             </Button>
           </Form>
           <div className="ForgotPassword">
-            <a href="/recuperar">¿Olvidaste tu contraseña?</a>
+            <a onClick={() => navigator("/recuperar")}>¿Olvidaste tu contraseña?</a>
           </div>
           <div className="SignupLink">
-            ¿No tienes una cuenta? <a href="/registro">Regístrate</a>
+            ¿No tienes una cuenta? <a onClick={() => navigator("/registro")}>Regístrate</a>
           </div>
         </Col>
       </Row>
