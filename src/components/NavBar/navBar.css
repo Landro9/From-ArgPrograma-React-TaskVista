@@ -1,0 +1,32 @@
+/* Header.css */
+
+.bg-body-tertiary {
+    background-color: #f0f0f0; /* Cambia el color de fondo según tu preferencia */
+  }
+  
+  /* Añade estilos adicionales según tus necesidades */
+  .navbar {
+    border-bottom: 2px solid #ddd; /* Añade una línea de separación en la parte inferior de la barra de navegación */
+  }
+  
+  .nav-link {
+    color: #333; /* Cambia el color del texto de los enlaces según tu preferencia */
+    margin-right: 15px; /* Añade un espacio entre los enlaces */
+  }
+  
+  .nav-link:hover {
+    color: #007bff; /* Cambia el color del texto al pasar el ratón sobre los enlaces */
+  }
+  
+  .navbar-brand {
+    font-weight: bold; /* Añade negrita al texto de la marca */
+  }
+
+  /* Estilos para el ícono de usuario */
+.nav-link i {
+  margin-right: 5px; /* Ajusta el espacio entre el ícono y el texto si es necesario */
+}
+
+.no-underline {
+  text-decoration: none;
+}

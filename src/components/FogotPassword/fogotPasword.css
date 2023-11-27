@@ -1,0 +1,24 @@
+.LoginContainer {
+    margin-top: 50px; /* Ajusta el margen superior según sea necesario */
+  }
+  
+  .LoginBox {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-control {
+    margin-bottom: 15px;
+  }
+  
+  .LoginButton {
+    width: 100%;
+  }
+  
+  .SignupLink {
+    margin-top: 20px;
+    text-align: center;
+  }

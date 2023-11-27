@@ -1,0 +1,64 @@
+/* footer.css */
+
+.container {
+    background-color: #f8f9fa; /* Cambia el color de fondo según tu preferencia */
+    padding: 20px;
+  }
+  
+.footer {
+    padding: 60px 30px;
+    }
+
+.fopadding {
+    padding-top: 60px;
+}
+  
+  .footer-logo {
+    margin-bottom: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+    color: #343a40; /* Cambia el color del texto según tu preferencia */
+  }
+  
+  .footer-copyright {
+    color: #6c757d; /* Cambia el color del texto según tu preferencia */
+  }
+  
+  .social-icons {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .social-icons li {
+    margin-left: 15px;
+  }
+  
+  .social-icons a {
+    text-decoration: none;
+    color: #6c757d; /* Cambia el color del ícono según tu preferencia */
+    font-size: 20px;
+  }
+  
+  /* Agrega estilos específicos para los íconos de Bootstrap (bi) */
+  .bi {
+    vertical-align: text-bottom;
+  }
+  
+  /* Agrega estilos específicos para el ícono de Twitter (cambia a la clase correcta según tu preferencia) */
+  .bi-twitter-x:before {
+    content: "\e600";
+  }
+  
+  /* Agrega estilos específicos para el ícono de Facebook (cambia a la clase correcta según tu preferencia) */
+  .bi-facebook:before {
+    content: "\e601";
+  }
+  
+  /* Agrega estilos específicos para el ícono de Instagram (cambia a la clase correcta según tu preferencia) */
+  .bi-instagram:before {
+    content: "\e602";
+  }
+  

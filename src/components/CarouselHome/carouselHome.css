@@ -1,0 +1,37 @@
+/* carousel.css */
+
+.custom-carousel {
+    margin-top: 20px; /* Ajusta el margen superior según sea necesario */
+  }
+  
+  .carousel-item img {
+    width: 100%;
+    height: 100vh; /* Ajusta la altura de las imágenes según sea necesario */
+    object-fit: cover; /* Ajusta el ajuste del objeto según sea necesario */
+  }
+  
+  .carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente para el texto del título y descripción */
+    padding: 20px;
+    color: #fff; /* Color del texto */
+  }
+  
+  .carousel-caption h3 {
+    font-size: 2.5rem; /* Ajusta el tamaño de la fuente del título según sea necesario */
+    margin-bottom: 10px; /* Ajusta el margen inferior del título según sea necesario */
+  }
+  
+  .carousel-caption p {
+    font-size: 1.5rem; /* Ajusta el tamaño de la fuente de la descripción según sea necesario */
+  }
+  
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    background-color: #007bff; /* Color de fondo de las flechas de control */
+  }
+  
+  .carousel-control-prev,
+  .carousel-control-next {
+    width: 5%; /* Ajusta el ancho del área de control según sea necesario */
+  }
+  

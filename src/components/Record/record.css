@@ -1,0 +1,45 @@
+body {
+    background-color: #fafafa; /* Color de fondo similar al de Instagram */
+  }
+  
+  .RegistroContainer {
+    margin-top: 50px;
+  }
+  
+  .RegistroBox {
+    background-color: #fff;
+    border: 1px solid #e6e6e6;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .InstagramLogo {
+    margin-bottom: 20px;
+  }
+  
+  .InstagramLogo img {
+    width: 175px;
+  }
+  
+  .RegistroButton {
+    width: 100%;
+    margin-top: 10px;
+  }
+  
+  .Terms {
+    margin-top: 20px;
+    font-size: 12px;
+    color: #999;
+  }
+
+  .Link {
+    color: #007bff;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .Link:hover {
+    text-decoration: underline;
+  }
+  

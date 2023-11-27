@@ -1,0 +1,67 @@
+body {
+    background-color: #fafafa; /* Color de fondo similar al de Instagram */
+  }
+  
+  .LoginContainer {
+    margin-top: 50px;
+  }
+  
+  .LoginBox {
+    background-color: #fff;
+    border: 1px solid #e6e6e6;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .InstagramLogo {
+    margin-bottom: 20px;
+  }
+  
+  .InstagramLogo img {
+    width: 175px;
+  }
+  
+  .LoginButton {
+    width: 100%;
+    margin-top: 10px;
+  }
+  
+  .OrSeparator {
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+  }
+  
+  .OrSeparator hr {
+    flex: 1;
+    border: 0.5px solid #e6e6e6;
+  }
+  
+  .OrSeparator span {
+    padding: 0 10px;
+    color: #999;
+  }
+  
+  .ForgotPassword {
+    margin-top: 10px;
+  }
+  
+  .ForgotPassword a {
+    color: #003569; /* Color del enlace similar al de Instagram */
+  }
+
+  /* Agrega el siguiente estilo al final de tu archivo login.css */
+  .SignupLink {
+    margin-top: 10px;
+  }
+  
+  .SignupLink a {
+    text-decoration: none; /* Elimina el subrayado */
+    color: #007bff; /* Cambia el color del enlace según tus preferencias */
+  }
+  
+  .SignupLink a:hover {
+    text-decoration: underline; /* Agrega el subrayado al pasar el ratón sobre el enlace si es necesario */
+  }
+    
